@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trent Reznor🎤</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1>Trent<br>
+        Reznor</h1>
+    <div>of</div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Nine_Inch_Nails_logo.svg/1200px-Nine_Inch_Nails_logo.svg.png"
+        class="logo" width="300">
+    <h2>Nine Inch Nails</h2>
+    <hr>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/737/original/gettyimages-52969911_%281%29.jpg?1665136719"
+        class="trentReznor"
+        alt="Trent Reznor is holding his microphone and smiling widely, while the lights shine brightly on him. He also seems wet.">
+    <hr>
+    <p>Michael Trent Reznor (born May 17, 1965) is an American musician. Reznor is the founder and main creative force
+        behind the industrial rock band <em><strong>Nine Inch Nails</strong></em>. He is also the only official member
+        of
+        the
+        band,
+        as he composes and plays all the instruments himself;
+        however,
+        different producers,
+        engineers and musicians are assembled to assist him in writing and performing new material,
+        and a backing band accompanies him on live shows. Reznor writes all of the lyrics himself and is in sole control
+        of
+        the group.</p>
+    <a href="https://www.imdb.com/name/nm0722153/" target="_blank"><em>Learn more about Trent Reznor on
+            IMDb</em></a><br>
+    <q><em>My music has been a sort
+            of personal therapy. It's got me out of tough times, it has been the friend that I
+            needed,
+            when I didn't have a friend there.</em></q><cite>Trent Reznor</cite>
+    <br>
+    <button>Check out his latest release!</button>
+    <div class="codedBy">Coded by Milana Tarasova</div>
+
+    <script>
+        function release() {
+            let name = prompt("What's your name?");
+            if (name.length) {
+                alert(
+                    "Heyo, " + name + "🤗! Check out the new movie Empire of Light, music of which is scored by Trent Reznor and Atticus Ross 🎵 It's pretty good!")
+            } else {
+                alert("Whatever, you nameless weirdo!🤨 Still, check out the new movie Empire of Light, music of which is scored by Trent Reznor and Atticus Ross 🎵 Not like you would even bother!🙄")
+            }
+        }
+
+        let releaseButton = document.querySelector("button");
+        releaseButton.addEventListener("click", release);
+    </script>
+</body>
+
+</html>

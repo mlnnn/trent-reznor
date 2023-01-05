@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@font-face {
+  font-family: "TheFragile";
+  src: url("src/the_fragile-webfont.woff2") format("woff2"),
+    url("src/the_fragile-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "akzidenzgrotesk";
+  src: url("src/akzidenzgrotesk-black-webfont.woff2") format("woff2"),
+    url("src/akzidenzgrotesk-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  background-color: white;
+}
+body {
+  background: rgb(219, 189, 108);
+  background: linear-gradient(
+    0deg,
+    rgba(219, 189, 108, 1) 0%,
+    rgba(255, 255, 255, 0) 55%
+  );
+  background-size: contain;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 3px outset #e3d07d;
+  border-radius: 21px;
+}
+h1 {
+  font-family: "TheFragile";
+  text-align: center;
+  margin: 40px 40px 0px 40px;
+  font-size: 40px;
+  padding: 0px;
+}
+div {
+  font-family: "TheFragile";
+  text-align: center;
+  margin: 25px;
+  font-size: 25px;
+}
+.logo {
+  display: block;
+  width: 230px;
+  max-width: 70%;
+  margin: auto;
+}
+h2 {
+  font-family: "akzidenzgrotesk";
+  text-align: center;
+  font-size: 45px;
+  margin: 25px;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.trentReznor {
+  display: block;
+  filter: contrast(0.7);
+  border: 2px solid rgba(225, 205, 152, 0.3);
+  border-radius: 17px;
+  margin: auto;
+  width: 700px;
+  max-width: 70%;
+}
+p {
+  font-family: "Inter", sans-serif;
+  line-height: 38px;
+  font-size: 30px;
+  max-width: 100%;
+  margin: 40px 0px 30px 0px;
+}
+a {
+  display: block;
+  text-decoration: orange solid underline;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+q {
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  padding-left: 0.5em;
+  border-left: 0.2em solid #ffa500;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+q:before,
+q:after {
+  font-family: Calibri;
+  color: #ffa500;
+  font-size: 34px;
+}
+q:before {
+  content: "\201e";
+}
+q:after {
+  content: "\201c";
+}
+cite {
+  font-size: 26px;
+  text-align: center;
+  top: 50%;
+}
+cite:before {
+  content: " \2015 ";
+}
+button {
+  font-family: "TheFragile";
+  display: block;
+  margin: 40px auto;
+  border: 1px solid #ffa500;
+  background: #ffa500;
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  cursor: pointer;
+}
+button:hover {
+  background: white;
+  color: #ffa500;
+  border: 1px solid #ffa500;
+}
+.codedBy {
+  text-align: center;
+  font-family: monospace;
+  font-size: 17px;
+  opacity: 0.8;
+  margin-top: 40px;
+}
